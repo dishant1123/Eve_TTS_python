@@ -1,6 +1,5 @@
 """
 notes : 
-
         .py            .ipynb
 1.   run  whole file   run cellwise 
 2.   folder            drive 
