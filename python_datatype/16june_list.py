@@ -162,4 +162,24 @@ input  : 5   : 23,56,78,90,13   ===> l1 =[23,56,78,90,13]
 output  : sum  of all elements  is  : 150   
         oddsum evensum 
 """
+"""num =int(input("enter the number "))    
+l1=[] 
 
+for i in range(1, num+1):
+    n=int(input("enter the number "))
+    l1.append(n)
+print(l1)  # [12,13,14,15,16]
+print("sum  of all elements  is  :",sum(l1))
+
+
+odd_sum =0 
+even_sum =0
+
+for i in l1 :  # [12,13,14,15,16]
+    if i% 2==0 :
+        even_sum +=i
+    else :
+        odd_sum +=i
+print("oddsum  is  :",odd_sum)
+print("evensum  is  :",even_sum)
+"""
