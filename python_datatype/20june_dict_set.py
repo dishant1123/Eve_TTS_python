@@ -64,7 +64,7 @@ for i ,j in d1.items():
     print(i,j)
 """
 # methods : 
-d1 ={"phy":9 , "math":7,90:89}
+# d1 ={"phy":9 , "math":7,90:89}
 
 # d1.clear()
 # print(d1)
@@ -111,11 +111,11 @@ d2=["ram","sita"]   # ==> d2={"ram":90,"sita":90}
 # d3.update({"sita":89})
 # print(d3)
 
-d1 ={"phy":9 , "math":7,'com':90}
+"""d1 ={"phy":9 , "math":7,'com':90}
 
 print(d1.popitem())  # last key value  remove
 print(d1)
-
+"""
 # task  :1 
 """
 ask user to enter the  3 student name and its marks store in to the dict. 
@@ -130,4 +130,48 @@ enter the student : 3
         
 output  : d1 ={"ram":90,"sita":80,"priyanka":85}
 """
+n=int(input("enter the  nunber of students : "))
+d1={}
+for i in range(1,n+1):
+    name=input("enter the  name : ")
+    marks=int(input("enter the  marks : "))
+    d1[name] =marks
+
+print(d1)    
+
+"""
+task  :1 
+print  this pattern  : 
+
+1.          2.           3.       4.             5. 
+* * * * *   * * * * *        *        *              *
+  * * * *    * * * *       * *       * *            * * 
+    * * *     * * *      * * *      * * *          * * *
+      * *      * *     * * * *     * * * *        * * * *
+        *       *    * * * * *    * * * * *      * * * * *
+                                                  * * * * 
+                                                   * * * 
+                                                    * * 
+                                                     *
+
+
+task :2 
+remove the  duplicate  element  from the list  and print  the  list .
+
+input  : l1 =[12,34,56,78,12,12,56,89]
+output : l1 =[12,34,56,78,56,89]
+
+task :3 
+
+sort by  second element in the list . 
+
+input  : l1 =[[0,4],[1,2],[6,7]]
+output  : l1 =[[1,2],[0,4],[6,7]]
+
+task :4 ask user to enter the  any number and  print  first digit  and  last digit  sum. 
+input  :12234 
+output : first and  last  digit sum is  : 1+4 =5 
+
+"""
+
 
