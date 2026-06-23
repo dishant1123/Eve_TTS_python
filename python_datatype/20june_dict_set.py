@@ -130,7 +130,7 @@ enter the student : 3
         
 output  : d1 ={"ram":90,"sita":80,"priyanka":85}
 """
-n=int(input("enter the  nunber of students : "))
+"""n=int(input("enter the  nunber of students : "))
 d1={}
 for i in range(1,n+1):
     name=input("enter the  name : ")
@@ -138,7 +138,7 @@ for i in range(1,n+1):
     d1[name] =marks
 
 print(d1)    
-
+"""
 """
 task  :1 
 print  this pattern  : 
@@ -172,6 +172,49 @@ task :4 ask user to enter the  any number and  print  first digit  and  last dig
 input  :12234 
 output : first and  last  digit sum is  : 1+4 =5 
 
+8.Write a program to find duplicate values in a tuple.
+    t = (10,20,30,10,40,20,50)
+    output  :[10, 20]
+9.Find second largest number in a tuple 
+    t = (12,45,78,23,90,56)
+    output  : 78
+
 """
 
+"""
+task :2 
+remove the  duplicate  element  from the list  and print  the  list .
 
+input  : l1 =[12,34,56,78,12,12,56,89]
+output : l1 =[12,34,56,78,56,89]
+
+"""
+# task :2 
+"""
+l1 =[12,34,56,78,12,12,56,89]
+l2=[] 
+
+for i in l1 : 
+    if i not in l2 : 
+        l2.append(i)
+print(l2)
+"""
+
+# task :3
+task :3 
+
+
+l1 =[[0,-4],  #  ===> 0  0 ,4   ===> index 0 ,4 ===>1 
+     [1,-1],  #  ===> 1  1,2    ====> index 1  2 ===>1 
+     [-6,7]]  #  ===> 2 6,7     ====> index 0 7 ===>1
+"""
+for i in range(len(l1)):   # 2 ,3 
+    for j in range(i+1,len(l1)):  # 3,3 
+        if l1[i][1] > l1[j][1]:  # if l1[1][1] > l1[2][1]  2  > 7   
+            temp = l1[i]        #    temp=[0,4]
+            l1[i] = l1[j]       # l1[0] = [1,2]
+            l1[j] = temp        #  l1[1]=[0,4]
+            
+print(l1)      #  [[1,2] ,[0,4],[6,7]]
+"""
+print(sorted(l1))  #  
