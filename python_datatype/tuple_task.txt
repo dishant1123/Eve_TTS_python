@@ -1,0 +1,36 @@
+Tuple - Theory Questions
+
+1.What is a tuple in Python?
+2.What is the difference between a list and a tuple?
+3.How do you create a tuple with a single element?
+4.Why are tuples immutable?
+Answer:
+Tuples are immutable to provide:
+
+    Data security
+    Faster execution
+    Memory optimization
+5.What built-in functions can be used with tuples?
+
+Tuple - Practical Questions
+
+1. Find the length of a tuple
+2. Reverse a tuple using slicing
+3. Count occurrence of a value
+4. Find index of an element
+5. Find largest and smallest value
+
+Tuple Interview Questions
+1.Is a tuple mutable or immutable?
+2.Which methods are available in tuples?
+3.Can a tuple contain different data types?
+4.Why would you use a tuple instead of a list?
+5. Can a tuple contain a list?
+6.Can we modify a list inside a tuple?
+7.What happens if the value is not found in index()?
+8.Write a program to find duplicate values in a tuple.
+    t = (10,20,30,10,40,20,50)
+    output  :[10, 20]
+9.Find second largest number in a tuple 
+    t = (12,45,78,23,90,56)
+    output  : 78

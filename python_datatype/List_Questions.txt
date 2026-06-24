@@ -1,0 +1,43 @@
+LIST - THEORY QUESTIONS
+
+1. What is a list in Python?
+2. What are the characteristics of a list?
+3. What is the difference between a list and a tuple?
+4. Why are lists mutable?
+5. What built-in functions can be used with lists?
+6. What is the difference between append() and extend()?
+7. What is the difference between remove() and pop()?
+8. How does list slicing work in Python?
+9. What is nested list?
+10. What is list comprehension?
+
+LIST - PRACTICAL QUESTIONS
+
+1. Find the length of a list.
+2. Reverse a list using slicing.
+3. Count occurrence of a value.
+4. Find index of an element.
+5. Find largest and smallest value.
+6. Add an element at the end of a list.
+7. Insert an element at a specific position.
+8. Remove an element from a list.
+9. Sort a list in ascending order.
+10. Sort a list in descending order.
+11. Remove duplicate values from a list.
+12. Merge two lists.
+13. Find common elements between two lists.
+14. Find the sum of all elements in a list.
+15. Separate even and odd numbers from a list.
+
+LIST - INTERVIEW QUESTIONS
+
+1. Is a list mutable or immutable?
+2. Which methods are available in lists?
+3. Can a list contain different data types?
+4. What is the difference between append() and insert()?
+5. What is the difference between remove(), pop(), and del?
+6. Can a list contain another list?
+7. What happens if the value is not found in index()?
+8. Write a program to find duplicate values in a list.
+9. Find the second largest number in a list.
+10. Write a program to rotate a list by one position.

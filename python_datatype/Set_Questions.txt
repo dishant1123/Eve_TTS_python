@@ -1,0 +1,43 @@
+SET - THEORY QUESTIONS
+
+1. What is a set in Python?
+2. What are the characteristics of a set?
+3. Why are duplicate values not allowed in a set?
+4. Is a set ordered or unordered?
+5. What built-in functions can be used with sets?
+6. What is the difference between a set and a list?
+7. What is a frozen set?
+8. What is the difference between remove() and discard()?
+9. What are set operations?
+10. Why are sets faster for membership testing?
+
+SET - PRACTICAL QUESTIONS
+
+1. Find the length of a set.
+2. Add an element to a set.
+3. Remove an element from a set.
+4. Find union of two sets.
+5. Find intersection of two sets.
+6. Find difference of two sets.
+7. Find symmetric difference of two sets.
+8. Check whether an element exists in a set.
+9. Convert a list into a set.
+10. Remove duplicate values from a list using a set.
+11. Find common elements between two sets.
+12. Find unique elements from two sets.
+13. Find largest and smallest value in a set.
+14. Find the sum of all values in a set.
+15. Create a set from a string.
+
+SET - INTERVIEW QUESTIONS
+
+1. Is a set mutable or immutable?
+2. Can a set contain duplicate values?
+3. Which methods are available in sets?
+4. Can a set contain different data types?
+5. Can a set contain another set?
+6. What is the difference between remove() and discard()?
+7. What is a frozen set?
+8. Write a program to find common elements between two sets.
+9. Find the second largest number in a set.
+10. Write a program to find elements present in one set but not in another.

@@ -1,0 +1,43 @@
+DICTIONARY - THEORY QUESTIONS
+
+1. What is a dictionary in Python?
+2. What are the characteristics of a dictionary?
+3. What is a key-value pair?
+4. Can dictionary keys be duplicated?
+5. Why are dictionary keys immutable?
+6. What built-in functions can be used with dictionaries?
+7. What is the difference between get() and []?
+8. What are dictionary views?
+9. What is nested dictionary?
+10. What is dictionary comprehension?
+
+DICTIONARY - PRACTICAL QUESTIONS
+
+1. Find the length of a dictionary.
+2. Access a value using a key.
+3. Add a new key-value pair.
+4. Update an existing value.
+5. Delete a key-value pair.
+6. Get all keys from a dictionary.
+7. Get all values from a dictionary.
+8. Get all key-value pairs.
+9. Check whether a key exists or not.
+10. Merge two dictionaries.
+11. Find the key having the maximum value.
+12. Find the key having the minimum value.
+13. Count frequency of characters in a string using a dictionary.
+14. Create a dictionary from two lists.
+15. Sort a dictionary by keys.
+
+DICTIONARY - INTERVIEW QUESTIONS
+
+1. Is a dictionary mutable or immutable?
+2. Can dictionary keys be duplicated?
+3. Can dictionary values be duplicated?
+4. Which methods are available in dictionaries?
+5. Can a dictionary contain different data types?
+6. Can a dictionary contain another dictionary?
+7. What happens if a key is not found?
+8. Write a program to find duplicate values in a dictionary.
+9. Find the key with the second highest value.
+10. Write a program to swap keys and values in a dictionary.
