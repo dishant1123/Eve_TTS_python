@@ -34,4 +34,19 @@ print(s1[-1])
 print(s1[1:7:2])# 
 print(s1[ : : -1])
 
+"""
+task 1 : ask user to enter the  two  strings  and inter change  the  first three characters of the second  string  and vice  versa.
+
+input 1 : color 
+input 2 : full 
+
+output  1: fulor 
+output  2: coll 
+
+task :2 
+input  : dishant dipakkumar shah 
+output :d.d.shah
+"""
+
+
 
