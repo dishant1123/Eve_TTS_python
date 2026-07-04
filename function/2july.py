@@ -123,7 +123,7 @@ for i in range(n):  # 3, 5
 """
 
 # using  recurive  function  :
-def fibonacci(n):
+"""def fibonacci(n):
     if n==0 :
         return 0
     elif n==1:
@@ -132,3 +132,39 @@ def fibonacci(n):
 
 for i in range(10):
     print(fibonacci(i))
+    
+"""
+
+"""
+2.Ask user to give name and marks of 5 different students. Store them in dictionary.
+ Sort the above dictionary in ascending order of Marks.
+"""
+
+"""1. Write a Python program to sort a list of tuples using Lambda.
+
+Original list of tuples:
+[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+Sorting the List of Tuples:
+[('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]
+"""
+
+"""l1= [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+
+result = sorted(l1,key=lambda x : x[0])
+print(result)
+
+"""
+
+"""2. Write a Python program to sort a list of dictionaries using Lambda.
+
+Original list of dictionaries :
+[{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Max', 'model': '2', 'color': 'Gold'}, {'make': 'Samsung', 'model': 7, 'color': 'Blue'}]
+
+Sorting the List of dictionaries :
+[{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Samsung', 'model': 7, 'color': 'Blue'}, {'make': 'Mi Max', 'model': '2', 'color': 'Gold'}]
+"""
+l1 =[{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Max', 'model': '2', 'color': 'Gold'}, {'make': 'Samsung', 'model': 7, 'color': 'Blue'}]
+
+"""r =sorted(l1,key =lambda x : x['make'])
+print(r)
+"""
