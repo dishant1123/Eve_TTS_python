@@ -168,3 +168,5 @@ l1 =[{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Max', 'mode
 """r =sorted(l1,key =lambda x : x['make'])
 print(r)
 """
+
+
