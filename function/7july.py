@@ -29,7 +29,7 @@ print(d2)
 3. update employee
 4. display employee
 """
-d1={}
+"""d1={}
 def add_employee():
     id =int(input("enter id : "))
     name =input("enter name : ")
@@ -78,5 +78,8 @@ def main():
                 break
 main()
     
-      
+"""
 # bank  app  () : 
+
+
+
