@@ -49,3 +49,12 @@ with open("meghpreet.txt",'a') as f :
     f.write("both are in same  college.\n")
     
 
+# task  : 1 
+"""
+ask user to enter the string and separate  the  vowel and consonant in separate file .
+input  : my name is meghpreet.
+
+output : vowel.txt : 
+        consonant.txt :
+"""
+
