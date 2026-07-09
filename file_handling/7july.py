@@ -71,3 +71,20 @@ task :2 Write a Python program to read a text file and do following:
 1. Print no. of words 
 2. Print no. statements 
 """
+
+# task :1 
+
+n=input("enter the  string : ")
+vowel = ['a','e','i','o','u']
+
+for i in n : 
+    if  i in vowel :
+        with open("vowel.txt",'a') as f :
+            f.write(i)
+    else :
+        with open("consonant.txt",'a') as f :
+            f.write(i)
+            
+
+
+
