@@ -71,15 +71,32 @@ def login():
     else :
         print("username is not valid") 
         
-def deposit():
-    print("deposit")
+def deposit(username):
+    amount =int(input("enter amount : "))
     
-def withdraw():
-    print("withdraw")
-
-def check_balance():
-    print("check balance")
+    if amount<0 :
+        print("amount should be positive")
+    else :
+        if username in account :
+            account[username]['balance']+=amount
+            print("deposit success")
     
+        
+def withdraw(username):
+    amount =int(input("enter amount : "))  # 20000
+    if amount<0 :
+        print("amount should be positive")
+    else :
+        if username in account :
+            if account[username]['balance']>=amount :# 5000 > 20000 
+                account[username]['balance']-=amount
+                print("withdraw success")
+        else :
+            print("username is not valid")
+        
+    
+def check_balance(username):
+    print("your  final balance is  : ",account[username]['balance'])    
 def main():
     while True :
         print("1. create account")
