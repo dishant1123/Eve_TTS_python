@@ -74,13 +74,13 @@ for  i in data['results']:
 """
 
 # ex :4 Query parameters  :  instead of writing parameters in the URL pass them using parameters. 
-
+"""
 url ="https://jsonplaceholder.typicode.com/comments"
 
 """
-params = {
-    "postId": 1
-}
+# params = {
+#     "postId": 1
+# }
 """
 params = {
     "id": 1
@@ -96,3 +96,56 @@ for i in comments:
     print(i['email'])
 
 # name , email  for post_id 1,2,3,4,5
+"""
+# ex :5 POST : sending  data to the server
+
+"""url ="https://jsonplaceholder.typicode.com/posts"
+
+data1 ={
+    "title" : "python API",
+    "body" : "API for python",
+    "UserId" : 109
+}
+response = requests.post(url,json=data1)
+
+print(response.url)
+print(response.status_code)
+print(response.json())
+"""
+
+# ex :6 PUT : updating data
+
+"""url ="https://jsonplaceholder.typicode.com/posts/1"
+
+data2 ={
+    "title" : "python API",
+    "body" : "API for python",
+    "UserId" : 109
+}
+
+response = requests.put(url,json=data2)
+
+print(response.url)
+print(response.status_code)
+print(response.json())
+"""
+
+# ex :7 save api data to csv : 
+import pandas as pd
+url ="https://jsonplaceholder.typicode.com/posts"
+
+params = {
+    "userId": 1
+}
+response = requests.get(url,params=params)
+
+print(response.url)
+print(response.status_code)
+
+comments = response.json()
+
+df =pd.DataFrame(comments)
+df.to_csv("comments.csv",index=False)
+
+print(df.head())  # 5  rows  print  
+
