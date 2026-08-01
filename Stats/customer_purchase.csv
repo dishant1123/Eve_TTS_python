@@ -1,0 +1,11 @@
+Customer_ID,Age,Gender,City,Income,Purchased,Purchase_Amount
+C001,22,Male,Ahmedabad,25000,No,0
+C002,35,Female,Surat,55000,Yes,3500
+C003,41,Male,Rajkot,70000,Yes,4800
+C004,28,Female,Ahmedabad,38000,Yes,2200
+C005,20,Male,Vadodara,20000,No,0
+C006,45,Female,Surat,82000,Yes,6200
+C007,31,Male,Ahmedabad,46000,Yes,2900
+C008,27,Female,Rajkot,33000,No,0
+C009,38,Male,Surat,60000,Yes,4100
+C010,24,Female,Ahmedabad,29000,No,0
