@@ -83,9 +83,10 @@ print("x +y=",x+y)
 
 # user input string  type value:
 
-a=str(input("enter the  name : "))
+"""a=str(input("enter the  name : "))
 b=input("enter the sur- name : ")
 
 print("name  :",a)
 print("sur-name  :",b)
 print("fullname  :",a+" "+b)  # concate 
+"""

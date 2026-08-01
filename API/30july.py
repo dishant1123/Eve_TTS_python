@@ -1,6 +1,7 @@
-import requests
+"""import requests
 
-API_KEY = "23258c3bbd9eb3a964c6a17be4270035"      # Paste your API key here
+API_KEY = "YOUR_API_KEY"      # Paste your API key here
+
 city = input("Enter city: ")
 
 url = "https://api.openweathermap.org/data/2.5/weather"
@@ -12,6 +13,7 @@ params = {
 }
 
 response = requests.get(url, params=params)
+
 data = response.json()
 
 if response.status_code == 200:
@@ -22,4 +24,51 @@ if response.status_code == 200:
 else:
     print("Error:", data.get("message", "Something went wrong"))
     
-# https://openweathermap.org/?utm_source=chatgpt.com
+"""
+
+# ex :1 session  :
+
+"""import requests
+
+session = requests.Session()
+
+response = session.get("https://jsonplaceholder.typicode.com/posts/1")
+
+print(response.status_code)
+print(response.json())
+"""
+# ex :2 reusing headers : 
+
+"""import requests
+
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Dishant-App"
+})
+
+url = "https://jsonplaceholder.typicode.com/posts"
+response = session.get(url)
+print(response.status_code)
+
+"""
+# ex :3 pip install aiohttp
+
+import asyncio
+import aiohttp
+
+async def get_post(post_id):
+    url = f"https://jsonplaceholder.typicode.com/posts/{post_id}"
+
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            data = await response.json()
+            print(data["title"])
+
+async def main():
+    await asyncio.gather(
+        get_post(1),
+        get_post(2),
+        get_post(3)
+    )
+
+asyncio.run(main())
