@@ -22,7 +22,7 @@ LIST - PRACTICAL QUESTIONS
 7. Insert an element at a specific position.
 8. Remove an element from a list.
 9. Sort a list in ascending order.
-10. Sort a list in descending order.
+10. Sort a list in descending order. 
 11. Remove duplicate values from a list.
 12. Merge two lists.
 13. Find common elements between two lists.
