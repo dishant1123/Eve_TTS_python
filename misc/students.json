@@ -1,0 +1,22 @@
+[
+    {
+        "name": "priyanka",
+        "age": 25,
+        "address": "ahmedabad",
+        "marks": {
+            "maths": 90,
+            "science": 80,
+            "english": 70
+        }
+    },
+    {
+        "name": "ramesh",
+        "age": 25,
+        "address": "ahmedabad",
+        "marks": {
+            "maths": 90,
+            "science": 80,
+            "english": 70
+        }
+    }
+]
