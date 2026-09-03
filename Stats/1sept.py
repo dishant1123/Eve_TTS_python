@@ -25,11 +25,11 @@ df = pd.DataFrame({
     "age" : [20,23,25,30,34 ,38], 
     "salary" :[20000,25000,29000,35000,48000,90000]
 })
-
-plt.boxplot(df["salary"])
-plt.legend(loc="upper right")
-plt.title("Salary")
-plt.show()
+print(df)
+# plt.boxplot(df["salary"])
+# plt.legend(loc="upper right")
+# plt.title("Salary")
+# plt.show()
 
 Q1 = df['salary'].quantile(0.25)
 Q3 = df['salary'].quantile(0.75)
